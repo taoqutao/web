@@ -1,0 +1,118 @@
+  .taskPlan{text-decoration:none}
+        .taskPlan:hover { text-decoration:underline;cursor: pointer;}
+        .release-hydq{color:#3e99d7;margin-left:10px;cursor:pointer;}
+        .chj_bj{z-index:20;position:fixed;width:100%;height:100%;background:#000;opacity:0.5;filter:alpha(opacity=50);-moz-opacity:0.5;display:none;left: 0;top: 0;}
+        .chj_min{position:absolute;top:50%;margin-top:-225px;display:none;position:fixed;z-index:111;left:50%;margin-left:-325px;width:650px;height:450px;background:#fff;}
+        .chj_min_a{float:right;background:url(http://www.51jurenqi.com/assets/img/rqb/rel-01.png) no-repeat;background-size:20px;width:20px;display:block;height:20px;margin-top:7px;margin-right:10px;position:relative;cursor:pointer;}
+        .chj_min_nav{display:block;width:100%;height:35px;line-height:35px;background:#e6e6e6;font-size:12px;color:#333333;text-indent:1em;}
+
+        .chj_bj_one{z-index:20;position:fixed;width:100%;height:100%;background:#000;opacity:0.5;filter:alpha(opacity=50);-moz-opacity:0.5;display:none;left: 0;top: 0;}
+        .chj_min_one{position:absolute;top:50%;margin-top:-111px;display:none;position:fixed;z-index:111;left:50%;margin-left:-325px;width:650px;height:222px;background:#fff;}
+        .chj_min_nav_m{font-size:12px;color:#333333;line-height:26px;margin:10px 25px;}
+
+        .chj_bj_two{z-index:20;position:fixed;width:100%;height:100%;background:#000;opacity:0.5;filter:alpha(opacity=50);-moz-opacity:0.5;display:none;left: 0;top: 0;}
+        .chj_min_two{position:absolute;top:50%;margin-top:-70px;display:none;position:fixed;z-index:111;left:50%;margin-left:-325px;width:650px;height:140px;background:#fff;}
+        .chj_min_nav_m{font-size:12px;color:#333333;line-height:26px;margin:10px 25px;}
+
+        .chj_bj_three{z-index:20;position:fixed;width:100%;height:100%;background:#000;opacity:0.5;filter:alpha(opacity=50);-moz-opacity:0.5;display:none;left: 0;top: 0;}
+        .chj_min_three{position:absolute;top:50%;margin-top:-175px;display:none;position:fixed;z-index:111;left:50%;margin-left:-325px;width:650px;height:350px;background:#fff;}
+
+        .release-left{z-index:9999;width:198px;height:170px;border:1px solid #e6e6e6;position:fixed;top:420px;right:50%;margin-right:575px;background:#fff;}
+        .release-left h2{font-size:14px;color:#5e5e5e;border-bottom:1px solid #e6e6e6;display:block;width:100%;text-indent:1em;height:48px;line-height:48px;}
+        .release-left ul li i{color:#fff;background:#ff6600;height:16px;width:16px;text-align:center;line-height:16px;display:inline-block;margin-right:10px;}
+        .release-left ul li{margin:0px 15px;border-bottom:1px dashed #e6e6e6;font-size:12px;color:#333333;line-height:38px;cursor:pointer;}
+        .release-left ul li:last-child{border-bottom:none;}
+
+        .chj_fhd{z-index:20;position:fixed;width:100%;height:100%;background:#000;opacity:0.5;filter:alpha(opacity=50);-moz-opacity:0.5;display:none;left: 0;top: 0;}
+        .chj_min_fhd{position:absolute;top:50%;margin-top:-305px;display:none;position:fixed;z-index:111;left:50%;margin-left:-325px;width:650px;height:610px;background:#fff;}
+        .chj_min_a_fhd{float:right;background:url(http://www.51jurenqi.com/assets/img/rqb/rel-01.png) no-repeat;background-size:20px;width:20px;display:block;height:20px;margin-top:7px;margin-right:10px;position:relative;cursor:pointer;}
+        .chj_min_nav_fhd{display:block;width:100%;height:35px;line-height:35px;background:#e6e6e6;font-size:12px;color:#333333;text-indent:1em;}
+        .fhd_div h1{font-size:14px;color:#9f9fa4;font-weight:normal;}
+        .fhd_div{overflow-y: auto;height: 84%;width: 100%;}
+        .select{font-size:12px;width:100%;}
+        .select li{list-style:none;padding:10px 0px 0px 0px}
+        .select .select-list{}
+        .select-list h1{font-size:14px;color:#9f9fa4;font-weight:normal;width:100%;display:inline-block;margin-bottom:10px;text-indent:1em;}
+        .select dl{zoom:1;position:relative;line-height:24px;border-top:1px solid #E6E6E6;border-bottom:1px solid #E6E6E6;}
+        .select dl:after{content:" ";display:block;clear:both;height:0;overflow:hidden}
+        .select dt{width:100px;margin-bottom:5px;position:absolute;top:0;left:-100px;text-align:right;color:#666;height:24px;line-height:24px;}
+        .select dd{float:left;display:inline;border-right:1px solid #e6e6e6;width:125px;border-bottom:1px solid #E6E6E6;height:33px;line-height:33px;}
+        .select dd:last-child{border-right:none;}
+        .select a{display:inline-block;white-space:nowrap;height:24px;padding:0 35px;text-decoration:none;color:#333333;border-radius:2px;font-size:12px;background:url(http://www.51jurenqi.com/assets/img/rqb/dq-one.png) no-repeat 15px 9px;}
+        .select a:hover{color:#333333;}
+        .select .selected a{color:#333333;background:url(http://www.51jurenqi.com/assets/img/rqb/dq-two.png) no-repeat 15px 9px;}
+        .select-result dt{font-weight:bold}
+        .select-no{color:#999}
+        .select .select-result a{padding-right:20px;background:none;}.select .select-result a:hover{}
+        .dz_button{float:right;outline:none;margin-right:20px;border:none;background:#ff6600;color:#fff;border-radius:4px;width:160px;height:35px;line-height:35px;float:right;margin-top:20px;margin-left:0px;text-align:center;}
+        .dz_button:hover{background:#fd4700;transition-duration:500ms;-webkit-transition-duration:500ms;color:#fff;}
+        .cz_button{float:right;outline:none;margin-right:20px;border:none;background:#fff;border:1px solid #ff6600;color:#ff6600;border-radius:4px;width:160px;height:35px;line-height:35px;float:right;margin-top:20px;margin-left:0px;text-align:center;}
+        .cz_button:hover{background:#fff;transition-duration:500ms;-webkit-transition-duration:500ms;color:#ff6600;}
+
+        #rel-tp{display:-webkit-inline-box;font-size:14px;color:red;cursor:pointer;margin-left: 20px;}
+        .rel-tp-bj{z-index:5;position:fixed;width:100%;height:100%;background:#000;opacity:0.7;filter:alpha(opacity=70);-moz-opacity:0.7;display:none;}
+        .rel-tp-tc{position:absolute;width:326px;left:50%;margin-left:-163px;height:569px;top:50%;margin-top:-285px;display:none;background:#fff;position:fixed;z-index:10;border:5px solid #383838;}
+        .rel-tp-tc-min{float:left;width:100%;}
+        .box{height:35px; overflow:hidden;position:relative;z-index:15;width:100%;float:left;}
+        .t_news{ height:19px;  color:#333333; padding-left:10px; margin:8px 0; overflow:hidden; position:relative;}
+        .t_news b{display:inline-block;background:url(http://www.51jurenqi.com/assets/img/rqb/yw-12.png) no-repeat;width:20px;height:20px;z-index:0}
+        .news_li,.swap{ line-height:19px; display:inline-block; position:absolute; top:0;left:40px;}
+        .news_li a,.swap a{ color:red;font-size:14px;width:100%;overflow: hidden;white-space: nowrap;display: inline-block;}
+        .news_li a:hover{text-decoration:underline;}
+
+        .rel_jd_p{width:100%;font-size:12px;color:#9f9fa4;line-height:20px;margin-left:20px;margin-bottom:10px;}
+        .rel_jd_p i{color:#ff0000;}
+
+        /*91测图*/
+        .rel_ct{margin-left:20px;display:block;}
+        .rel_ct span{display:inline-block;margin-right:20px;width:90px;float:left;}
+        .rel_ct span i{color:#7a7e83;font-size:12px;}
+        .file_ct{float:left;position:relative;display:inline-block;border:1px solid #d9d9d9;background:url(http://www.51jurenqi.com/assets/img/rqb/tptj.png) no-repeat;border-radius:10px;height:88px;width:88px;cursor:pointer;}
+        .file_ct input{position:absolute;right:0;top:0;opacity:0;float:left;width:88px;height:88px;cursor:pointer;}
+        .file_ct img{border-radius:10px;}
+        .rel_ct_i{background:url(http://www.51jurenqi.com/assets/img/rqb/ctx.png) no-repeat;width:17px;height:17px;display:block;float:right;margin-top:7px;margin-right:5px;}
+        .rel_ct b{font-size:12px;color:#9f9fa4;float:left;margin-top:56px;font-weight:normal;}
+        .rel_ct b a{color:#2483e9;font-size:14px;}
+
+        .rel_fangd{position:relative;margin-top:-43px;float:right;}
+        .rel_fangd img{border-radius:0 0 10px 0}
+
+        /*1116*/
+        .chj_1116{z-index:20;position:fixed;width:100%;height:100%;background:#000;opacity:0.5;filter:alpha(opacity=50);-moz-opacity:0.5;display:none;left: 0;top: 0;}
+        .chj_1116_min{position:absolute;top:50%;display:none;position:fixed;z-index:111;left:50%;margin-left:-325px;width:650px;background:#fff;height:340px;margin-top:-170px;}
+        .chj_1116_ms{font-size:12px;color:#333333;line-height:26px;margin:10px 25px;}
+        .chj_1116_ms span{width:100%;display:inline-block;}
+        .chj_1116_ms h3{text-align:center;margin-bottom:15px;margin-top:20px;}
+        .chj_1116_a{float:right;background:url(http://www.51jurenqi.com/assets/img/rqb/rel-01.png) no-repeat;background-size:20px;width:20px;display:block;height:20px;margin-top:7px;margin-right:10px;position:relative;cursor:pointer;}
+
+
+        .rele_mark{display:inline-block;width:100%;}
+        .rele_mark a{display:inline-block;font-size:12px;color:red;text-decoration:underline;float:left;margin-left:200px;height:20px;}
+        .rele_mark a:hover .rele_mark_p{display:block;}
+        .rele_mark_p{font-size:12px;color:#FFFFFF;background:rgba(0,0,0,0.7);position:absolute;text-align:left;padding:10 15px;line-height:20px;width:455px;margin-top:10px;display:none;cursor:text;}
+        .rele_mark_p i{border-left:8px solid transparent;border-bottom:10px solid rgba(0,0,0,0.7);border-right:8px solid transparent;position:absolute;margin-top:-20px;margin-left:15px;}
+
+        /*20161214*/
+        a.link{background:#3e99d7;width:100px;height:30px;line-height:30px;text-align:center;font-size:14px;color:#FFFFFF;border-radius:4px;display:inline-block;margin-left:10px;}
+        .figure{display:inline-block;width:70%;}
+        .figure p{float:left;width:88px;margin-right:20px;}
+        .figure p a{display:inline-block;border:1px solid #d9d9d9;border-radius:10px;height:88px;width:88px;}
+        .figure p a img{height:88px;width:88px;}
+        .figure p h{font-size:12px;color:#9f9fa4;text-align:center;width:100%;display:inline-block;}
+
+        .figure_Popup_bj{z-index:20;position:fixed;width:100%;height:100%;background:#000;opacity:0.7;filter:alpha(opacity=07);-moz-opacity:0.7;display:none;left:0;top:0;}
+        .figure_Popup{position:absolute;top:50%;margin-top:-136px;display:none;position:fixed;z-index:111;left:50%;margin-left:-325px;width:650px;height:272px;background:#fff;border:5px solid #000000}
+        .figure_Popup_nav{font-size:12px;color:#333333;line-height:26px;padding:5px 10px;background:#e6e6e6;}
+        .figure_Popup_min{display:block;width:100%;height:35px;line-height:35px;font-size:12px;color:#333333;text-indent:1em;}
+        .figure_Popup_a{float:right;background:url(http://www.51jurenqi.com/assets/img/rqb/rel-01.png) no-repeat;background-size:20px;width:20px;display:block;height:20px;margin-top:3px;margin-right:10px;position:relative;cursor:pointer;}
+        .figure_Popup_min h3{text-align:center;font-weight:normal;display:inline-block;width:96%;font-size:12px;color:#999999;margin:15px 0px;}
+        .figure_Popup_div{width:90%;display:inline-block;margin-left:5%;}
+        /* .content_6 .images_container img{display:block;width:116px;height:118px; float:left;margin:0 10px;border:none;padding:5px; background:#f0eff5;border:1px solid #d9d9d9;} */
+        .content_6{position:relative;width:100%;height:125px;-webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;}
+        .content_6.toggle_width{width:70%;}
+        .content_6 .images_container{overflow:hidden;}
+        .content_6 .images_container img{max-width:none; margin-top:0px; margin-left:0px;}
+        .content_6 .images_container img:first-child{}
+        .content_6 .images_container img:last-child{}
+        .content_6 .images_container div{display:inline-block;width:128px;float:left; margin-top:10px; margin-left:10px; border:none; position:relative;}
+        .content_6 .images_container img{display:block;width:116px;height:118px; border:none;padding:5px; background:#f0eff5;border:1px solid #d9d9d9;}

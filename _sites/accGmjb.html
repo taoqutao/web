@@ -1,0 +1,543 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html class="w3c">
+
+<head>
+    <title>充值管理</title>
+    <meta name="keywords" content="51聚人气，人气，直通车点击，真人点击，单，淘宝单，单平台，爆款，信誉炒作，淘宝爆款，分享干货，提升排名，淘大象查排名，淘大客，看店宝网红，店侦探，达人分享，荷塘月色，派代网，派代网，隐形降权，电商" />
+    <meta name="description" content="51聚人气-一家专门做真人点击网站，提供真实人工点击、收藏商品、收藏宝贝、加入购物车、进入宝贝评价页、领取优惠券、网红达人分享、并可提高访问深度、停留时间权重" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="renderer" content="webkit" />
+    <title>51聚人气-最受欢迎的无线端流量平台，提供优质粉丝的搜索点击服务，完成深度浏览，收藏加购，助力商家宝贝全方面的优化。</title>
+    <link rel="stylesheet" type="text/css" href="../css/rqb.css" />
+    <script src="../js/jquery-1.11.1.min.js" type="text/javascript"></script>
+    <script src="../js/banner-min.js" type="text/javascript"></script>
+    <script src="../js/release.js" type="text/javascript"></script>
+    <script src="../js/laydate/laydate.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../js/ZeroClipboard.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../js/My97DatePicker/WdatePicker.js" type="text/javascript"></script>
+    <script src="../js/md5.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        var path = '//localhost';
+    </script>
+</head>
+</head>
+
+<body>
+    <div class="ui-top">
+    <div class="mint">
+        <div class="ui-top-l">
+            <a href="http://www.51jurenqi.com/main/home/index" class="ui-top-logo"><img src="http://www.51jurenqi.com/assets/img/rqb/logo1.png"></a>
+        </div>
+                <div class="ui-top-r">
+                    <a href="tencent://message/?uin=2077817976&Site=www.51jurenqi.com&Menu=yes" target="_blank"
+                       class="account-bddp-bt-a" style="CURSOR: pointer;color:#fff;">在线客服</a>
+
+                    <span>您好，<m><a href="http://www.51jurenqi.com/main/account/center">15317173840</a></m>
+				
+                        <img src="http://www.51jurenqi.com/assets/img/rqb/acc-09.png"></span>
+                        VIP到期时间：
+                        2018-08-22
+                        <a href="http://www.51jurenqi.com/main/account/accGmjb/?module=vip"
+                           style="color:#3e99d7;margin-left:20px;">立即续费</a>
+
+            <i style="color:#9f9fa4;margin-left:10px;margin-right:5px;">|</i>
+            <a href="javascript:;" id="outLogin">安全退出</a>
+            <a href="http://www.51jurenqi.com/main/home/index"
+               style="float:right;font-size:12px;color:#5e5e5e;margin-left:20px;margin-top:2px;">返回首页</a>
+    </div>
+
+</div>
+</div>
+    <!-- 提示 -->
+    <div class="rele-rea-men-ts">
+        <div class="rele-rea-men-m-ts">
+            <p id="tipDialog"></p>
+        </div>
+    </div>
+    <div class="mint">
+        <div class="account-bddp-img">
+            <a href="#"><img alt="" src="../img/rqb/accrwgl.jpg"></a>
+        </div>
+        <div class="ret-min">
+            <div class="left-nav">
+                <ul>
+                    <li class="active all">
+                        <a href="account.html"><span></span>
+                        <p>账户总览</p></a>
+                    </li>
+                    <li class="rwgl">
+                        <a href="task.html"><span></span>
+                        <p>任务管理</p></a>
+                    </li>
+                    <li class="bddp">
+                        <a href="accBddp.html"><span></span>
+                        <p>绑定店铺</p></a>
+                    </li>
+                    <li class="czgl">
+                        <a href="accGmjb.html"><span></span>
+                        <p>充值管理</p></a>
+                    </li>
+                    <li class="zhgl">
+                        <a href="accZhgl.html"><span></span>
+                        <p>账户管理</p></a>
+                    </li>
+                    <li class="yqfl">
+                        <a href="accYqhy.html"><span></span>
+                        <p>邀请返利</p></a>
+                    </li>
+                    <li class="wdlj">
+                        <a href="accCoupon.html"><span></span>
+                        <p>我的礼券</p></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="account-r">
+                <div class="account-r-m">
+                    <div class="account-r-nav">
+                        <ul>
+                            <li class="account-r-nav-a" attrobj="all" attrnum="1"><a href="javascript:;" attrobj="all">G币充值</a></li>
+                            <li attrobj="vip" attrnum="1"><a href="javascript:;" attrobj="vip">续费会员</a></li>
+                            <li attrobj="notes" attrnum="0"><a href="javascript:;" attrobj="notes">充值记录</a></li>
+                            <li attrobj="renew" attrnum="0"><a href="javascript:;" attrobj="renew">续费记录</a></li>
+                            <li attrobj="details" attrnum="1"><a href="javascript:;" attrobj="details">资金明细</a></li>
+                        </ul>
+                    </div>
+                    <div class="account-r-lm">
+                        <div class="tab_box">
+                            <div class="account-czgl">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <th style="color: red;">
+                                                【特别提醒】：平台充值G币将只作用于发布任务和购买会员，且永久有效，一旦充值将无法作用于提现，请各位亲们充值调整好充值额度！！！
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                <em>充值金额</em>
+                                                <input type="text" name="shop_rechage_money" id="shop_rechage_money" class="account-zhgl-input" placeholder="最低50G币起充" value="1000" style="width:140px;margin-right:10px;">G币&nbsp;&nbsp;&nbsp;&nbsp;
+                                                <i class="red" style="font-size:14px;">50G币起充，必须为50的整数倍</i>
+                                            </th>
+                                            <th>
+                                                <em>充值套餐</em>
+                                                <div class="account-czgl-nav">
+                                                    <ul>
+                                                        <li class="account-czgl-nav-a" attrmoney="2000"><a href="javascript:;" attrmoney="2000.00">2000G币</a>
+                                                        </li>
+                                                        <li attrmoney="5000"><a href="javascript:;" attrmoney="5000">5000G币</a></li>
+                                                        <li attrmoney="10000"><a href="javascript:;" attrmoney="10000">10000G币</a>
+                                                        </li>
+                                                        <li attrmoney="20000"><a href="javascript:;" attrmoney="30000">20000G币</a>
+                                                        </li>
+                                                        <li attrmoney="30000"><a href="javascript:;" attrmoney="30000">30000G币</a>
+                                                        </li>
+                                                        <li attrmoney="50000"><a href="javascript:;" attrmoney="50000">50000G币</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="tab_boxs">
+                                                    <div class="account-czgl-nav-b"><i></i>充值2000赠送200G币，实际获得2200G币。</div>
+                                                    <div class="account-czgl-nav-b hide"><i style="margin-left:105px;"></i>充值5000赠送600G币，实际获得5600G币。
+                                                    </div>
+                                                    <div class="account-czgl-nav-b hide" style="margin-left:205px;"><i></i>充值10000赠送1400G币，实际获得11400G币。
+                                                    </div>
+                                                    <div class="account-czgl-nav-b hide" style="margin-left:215px;"><i style="margin-left:100px;"></i>充值20000赠送3000G币，实际获得23000G币。
+                                                    </div>
+                                                    <div class="account-czgl-nav-b hide" style="margin-left:195px;"><i style="margin-left:215px;"></i>充值30000赠送6000G币，实际获得36000G币。
+                                                    </div>
+                                                    <div class="account-czgl-nav-b hide" style="margin-left:265px;"><i style="margin-left:265px;"></i>充值50000赠送10000G币，实际获得60000G币。
+                                                    </div>
+                                                </div>
+                                            </th>
+                                            <th>
+                                                <em>支付方式</em>
+                                                <div class="account-czgl-nv" id="account-czgl-nv-1">
+                                                    <ol>
+                                                        <li class="account-czgl-nv-a" attrbank="1">
+                                                            <a href="javascript:;" attrbank="1"><img src="http://www.51jurenqi.com/assets/img/rqb/acc-10.png"></a>
+                                                        </li>
+                                                        <!--
+                                            <li attrBank="5"><a href="javascript:;" attrBank="5"><img
+                                                    src="http://www.51jurenqi.com/assets/img/rqb/acc-10-2.png"></a></a></li>
+                                            -->
+                                                        <li attrbank="3"><a href="javascript:;" attrbank="3">线下支付</a></li>
+                                                    </ol>
+                                                </div>
+                                            </th>
+                                            <th>
+                                                <em>应付金额</em><span><strong id="shop_moneynow">1000.00</strong>元</span>
+                                            </th>
+                                            <th id="line_one_1">
+                                                <a href="http://www.51jurenqi.com/main/account/editAccGmjb/?shop_rechage_money=1000&amp;shop_bank=1" target="_blank" class="ret-button" id="rele-zzfw-bot-two1" style="width:140px;text-align:center;margin-left:70px;height:35px;line-height:35px;">
+                                        确认支付
+                                    </a>
+                                            </th>
+                                        </tr>
+                                        <tr style="display: none;" id="line_one_2">
+                                            <th>
+                                                <div class="account-czgl-bt">
+                                                    <font>支付宝转账</font>
+                                                    <font>银行卡转账</font>
+                                                    <font>账号：jurenqi51@163.com</font>
+                                                    <font>开户银行：富滇银行重庆分行九龙坡支行</font>
+                                                    <font>账户名：重庆嘉采科技有限公司</font>
+                                                    <font>账号：7100 4101 0000 0138 42</font>
+                                                </div>
+                                            </th>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <div class="account-czgl-bot">
+                                    <h2>温馨提示：</h2>
+                                    <p>1、如遇到点击确认支付没有反应，请确认您的网页是否设置了弹窗拦截。
+                                        <br> 2、线下支付完成后，请提供转账截图、充值账号及时联系客服，以便能快速帮您充值。
+                                        <br> 3、如果支付中遇到其它问题，请联系在线客服咨询。
+                                        <i class="red">QQ：<a href="tencent://message/?uin=2077817976&amp;Site=www.51jurenqi.com&amp;Menu=yes" target="_blank">2077817976</a></i></p>
+                                </div>
+                            </div>
+                            <div class="account-czgl hide">
+                                <div class="account-czgl-xfhy">
+                                    <div class="account-czgl-xfhy-left">
+                                        <ul>
+                                            <li>尊贵VIP专享客服<span>x</span></li>
+                                            <li style="width:135px;">发布任务折扣<span style="margin-right:18px;">x</span></li>
+                                            <li>专属短信提示<span>x</span></li>
+                                            <li style="width:135px;">店铺绑定数量<i style="margin-right:10px;">1个</i></li>
+                                            <li>专属直通车任务<span>x</span></li>
+                                            <li style="width:135px;">每日发布任务数量<i>1000</i></li>
+                                            <li>优先审批任务<span>x</span></li>
+                                        </ul>
+                                    </div>
+                                    <div class="account-czgl-xfhy-min"><img src="http://www.51jurenqi.com/assets/img/rqb/acc-12.png"><em>点击升级</em>
+                                    </div>
+                                    <div class="account-czgl-xfhy-right">
+                                        <ul>
+                                            <li>尊贵VIP专享客服<span>√</span></li>
+                                            <li style="width:150px;">发布任务折扣<i>9.1折起</i></li>
+                                            <li>专属短信提示<span>√</span></li>
+                                            <li style="width:150px;">店铺绑定数量<i>无限制</i></li>
+                                            <li>专属直通车任务<span>√</span></li>
+                                            <li style="width:150px;">每日发布任务数量<i>无限制</i></li>
+                                            <li>优先审批任务<span>√</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <th>
+                                                <em>开通服务</em>
+                                                <div class="account-czgl-ktfw">VIP会员</div>
+                                                <font style="font-size:12px;color:#9f9fa4;float:left;">月服务期限：开通当日起31天</font>
+                                            </th>
+                                            <th>
+                                                <em>开通时长</em>
+                                                <input type="text" name="attrNo" id="attrNo" class="account-zhgl-input" value="3" style="width:90px;margin-right:10px;float:left;text-indent:0px;font-size:14px;text-align:center;padding-left:0px;">
+                                                <div class="account-czgl-nvs">
+                                                    <ul>
+                                                        <li attrno="9"><a href="javascript:;" attrno="9">9个月<i>（9折）</i></a></li>
+                                                        <li attrno="12"><a href="javascript:;" attrno="12">12个月<i>（8折）</i></a></li>
+                                                        <li attrno="24"><a href="javascript:;" attrno="24">24个月<i>（7.5折）</i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <font style="font-size:12px;color:#ff0000">51聚人气开通VIP会员，最低开通3个月</font>
+                                            </th>
+                                            <th>
+                                                <em>开通方式</em>
+                                                <div class="account-czgl-nv" id="account-czgl-nv-2">
+                                                    <ol>
+                                                        <li class="account-czgl-nv-a" attrbank="1">
+                                                            <a href="javascript:;" attrbank="1"><img src="http://www.51jurenqi.com/assets/img/rqb/acc-10.png"></a>
+                                                        </li>
+                                                        <li attrbank="5">
+                                                            <a href="javascript:;" attrbank="5"><img src="http://www.51jurenqi.com/assets/img/rqb/acc-10-2.png"></a>
+                                                        </li>
+                                                        <li attrbank="3"><a href="javascript:;" attrbank="3">线下支付</a></li>
+                                                    </ol>
+                                                </div>
+                                            </th>
+                                            <th style="margin-bottom:0px;">
+                                                <em>应付金额</em><span><strong id="shop_moneynow_two">300.00</strong>元</span>
+                                                <span style="margin-left: 6px;"><g id="univalent">100</g>/月</span>
+                                            </th>
+                                            <th>
+                                                <em>有效期至</em><span style="font-size:12px;color:#9f9fa4" id="shop_vipenddate">2018-11-05</span>
+                                            </th>
+                                            <th id="line_two_1">
+                                                <a href="http://www.51jurenqi.com/main/account/editAccVipXf/?attrNo=3&amp;shop_bank=1" target="_blank" id="rele-zzfw-bot-two2" class="ret-button" style="width:140px;text-align:center;margin-left:70px;height:35px;line-height:35px;">
+                                    确认支付
+                                </a>
+                                            </th>
+                                        </tr>
+                                        <tr style="display: none;" id="line_two_2">
+                                            <th>
+                                                <div class="account-czgl-bt">
+                                                    <font>支付宝转账</font>
+                                                    <font>银行卡转账</font>
+                                                    <font>账号：jurenqi51@163.com</font>
+                                                    <font>开户银行：富滇银行重庆分行九龙坡支行</font>
+                                                    <font>账户名：重庆嘉采科技有限公司</font>
+                                                    <font>账号：7100 4101 0000 0138 42</font>
+                                                </div>
+                                            </th>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <div class="account-czgl-bot">
+                                    <h2>温馨提示：</h2>
+                                    <p>1、如遇到点击确认支付没有反应，请确认您的网页是否设置了弹窗拦截。
+                                        <br> 2、线下支付完成后，请提供转账截图、充值账号及时联系客服，以便能快速帮您充值。
+                                        <br> 3、如果支付中遇到其它问题，请联系在线客服咨询。
+                                        <i class="red">QQ：<a href="tencent://message/?uin=2077817976&amp;Site=www.51jurenqi.com&amp;Menu=yes" target="_blank">在线客服</a></i></p>
+                                </div>
+                            </div>
+                            <div class="account-czgl hide">
+                                <div class="account-yqfl-men-t">
+                                    <select name="sign" id="sign" class="rele-gjc-select" style="float:left;margin-right:40px;margin-top:1px;">
+                            <option value="0">全部订单</option>
+                            <option value="3">充值成功</option>
+                            <option value="2">充值失败</option>
+                        </select>
+                                    <span>
+											<em>起止时间</em>
+											<input name="adddateStart" id="adddateStart" type="text" class="rel-spxx-input" onfocus="WdatePicker({skin:'whyGreen',dateFmt:'yyyy-MM-dd HH:mm:ss'})" value="" style="width:100px;margin-left:10px;;">
+								    		 -
+										     <input name="adddateOver" id="adddateOver" type="text" class="rel-spxx-input" onfocus="WdatePicker({skin:'whyGreen',dateFmt:'yyyy-MM-dd HH:mm:ss'})" value="" style="width:100px;margin-left:6px;;">
+											<a href="javascript:;" style="background:#ff6600;" id="notesQuery">查询</a>
+										</span>
+                                </div>
+                                <div class="account-czgl-table">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tbody>
+                                            <tr class="account-czgl-table-bj">
+                                                <td align="center" width="20%">时间</td>
+                                                <td align="center">充值单号</td>
+                                                <td align="center">实际支付（元）</td>
+                                                <td align="center">业务类型</td>
+                                                <td align="center">充值状态</td>
+                                                <td align="center" width="8%">操作</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <script type="text/javascript">
+                                    function turnOverPage(page) {
+                                        var frm = document.getElementById("searchForm");
+                                        document.getElementById("page").value = page;
+                                        frm.method = "post";
+                                        frm.submit();
+                                    }
+                                    $(function() {
+                                        $("#goto").click(function() {
+                                            var pageNo = $("#pageNo").val();
+                                            turnOverPage(pageNo);
+                                        })
+                                    })
+                                </script>
+                            </div>
+                            <div class="account-czgl hide">
+                                <div class="account-yqfl-men-t">
+                                    <select name="vip_sign" id="vip_sign" class="rele-gjc-select" style="float:left;margin-right:40px;margin-top:1px;">
+                            <option value="0">全部订单</option>
+                            <option value="3">充值成功</option>
+                            <option value="2">充值失败</option>
+                        </select>
+                                    <span>
+											<em>起止时间</em>
+											<input name="beginDate" id="beginDate" type="text" class="rel-spxx-input" onfocus="WdatePicker({skin:'whyGreen',dateFmt:'yyyy-MM-dd'})" value="" style="width:100px;margin-left:10px;;">
+								    		 -
+										     <input name="endDate" id="endDate" type="text" class="rel-spxx-input" onfocus="WdatePicker({skin:'whyGreen',dateFmt:'yyyy-MM-dd'})" value="" style="width:100px;margin-left:6px;;">
+											<a href="javascript:;" style="background:#ff6600;" id="renewQuery">查询</a>
+										</span>
+                                </div>
+                                <div class="account-czgl-table">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tbody>
+                                            <tr class="account-czgl-table-bj">
+                                                <td align="center" width="20%">时间</td>
+                                                <td align="center">续费单号</td>
+                                                <td align="center">实际支付（元）</td>
+                                                <td align="center">业务类型</td>
+                                                <td align="center">充值状态</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <script type="text/javascript">
+                                    function turnOverPage(page) {
+                                        var frm = document.getElementById("searchForm");
+                                        document.getElementById("page").value = page;
+                                        frm.method = "post";
+                                        frm.submit();
+                                    }
+                                    $(function() {
+                                        $("#goto").click(function() {
+                                            var pageNo = $("#pageNo").val();
+                                            turnOverPage(pageNo);
+                                        })
+                                    })
+                                </script>
+                            </div>
+                            <div class="account-czgl hide">
+                                <div class="account-yqfl-men-t">
+                                    <select name="itemType" id="itemType" class="rele-gjc-select" style="float:left;margin-right:40px;margin-top:1px;">
+                            <option value="0">全部类型</option>
+                            <option value="1">充值</option>
+                            <option value="2">提现</option>
+                            <option value="3">推荐奖励</option>
+                            <option value="4">推荐提成</option>
+                            <option value="5">任务退款</option>
+                            <option value="6">任务支出</option>
+                            <option value="7">绑定店铺</option>
+                        </select>
+                                    <select name="item_store" id="item_store" class="rele-gjc-select" style="float:left;margin-right:40px;margin-top:1px;width: 180px;">
+                            <option value="0">全部店铺</option>
+                            <option value="5998">野人谷旗舰店</option>
+                        </select>
+                                    <span>
+											<em>起止时间</em>
+											<input name="adddateBegin" id="adddateBegin" type="text" class="rel-spxx-input" onfocus="WdatePicker({skin:'whyGreen',dateFmt:'yyyy-MM-dd'})" value="" style="width:100px;margin-left:10px;;">
+								    		 -
+										     <input name="adddateEnd" id="adddateEnd" type="text" class="rel-spxx-input" onfocus="WdatePicker({skin:'whyGreen',dateFmt:'yyyy-MM-dd'})" value="" style="width:100px;margin-left:6px;;">
+											<a href="javascript:;" style="background:#ff6600;" id="detailsQuery">查询</a>
+										</span>
+                                </div>
+                                <div class="acc-bgjl-table">
+                                    <div style="min-height: 376px;clear: both;">
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <tbody>
+                                                <tr class="acc-bgjl-table-bj">
+                                                    <td align="center" width="20%">时间</td>
+                                                    <td align="center" width="20%">收支类型</td>
+                                                    <td align="center" width="20%">G币数</td>
+                                                    <td align="center">账户剩余G币</td>
+                                                    <td align="center" width="140px;"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="center">2018-07-06 10:15:45</td>
+                                                    <td align="center">
+                                                        充值
+                                                    </td>
+                                                    <td align="center">10</td>
+                                                    <td align="center">10</td>
+                                                    <td align="center"><a href="javascript:;" class="acc-bgjl-table-a">查看备注</a>
+                                                    </td>
+                                                </tr>
+                                                <tr class="tr-beizhu">
+                                                    <td colspan="5">
+                                                        <div class="acc-bgjl-table-div">
+                                                            <p><i>交易号：</i>
+                                                                <i>
+                                                                    充值
+                                            G币10
+                                        </i>
+                                                            </p>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <script type="text/javascript">
+                                        function turnOverPage(page) {
+                                            var frm = document.getElementById("searchForm");
+                                            document.getElementById("page").value = page;
+                                            frm.method = "post";
+                                            frm.submit();
+                                        }
+                                        $(function() {
+                                            $("#goto").click(function() {
+                                                var pageNo = $("#pageNo").val();
+                                                turnOverPage(pageNo);
+                                            })
+                                        })
+                                    </script>
+                                    <div class="pagination" style="margin:30px 15px;">
+                                        <span class="current prev">上一页</span>
+                                        <span class="current">1</span>
+                                        <span class="prev">下一页</span>
+                                        <font>共1页，到第</font>
+                                        <input type="text" value="1" id="pageNo">
+                                        <font>页</font>
+                                        <button id="goto">跳转</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <form action="http://www.51jurenqi.com/main/account/accGmjb" method="post" name="searchForm" id="searchForm">
+                        <input id="module" name="module" value="all" type="hidden">
+                        <input id="page" name="page" value="1" type="hidden">
+                        <input id="countTotal" name="countData" value="1" type="hidden">
+                        <input name="sign" id="new_sign" value="0" type="hidden">
+                        <input name="adddateStart" id="new_adddateStart" value="" type="hidden">
+                        <input name="adddateOver" id="new_adddateOver" value="" type="hidden">
+                        <input name="itemType" id="new_itemType" value="0" type="hidden">
+                        <input name="adddateBegin" id="new_adddateBegin" value="" type="hidden">
+                        <input name="adddateEnd" id="new_adddateEnd" value="" type="hidden">
+                        <input name="beginDate" id="new_beginDate" value="" type="hidden">
+                        <input name="endDate" id="new_endDate" value="" type="hidden">
+                        <input name="item_store" id="new_item_store" value="0" type="hidden">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="ui-bottom">
+    <div class="mint">
+        <div class="ui-bottom-l">
+            <a href="http://www.51jurenqi.com/main/home/index">51聚人气</a>|
+            <a href="http://www.51jurenqi.com/main/home/help">帮助中心</a>
+        </div>
+        <p class="ui-bottom-r">Copyright(c)2016 51jurenqi.com | 沪ICP备16013565号</p>
+    </div>
+</div>
+
+    <script type="text/javascript">
+        $(function() {
+
+            $(".acc-bgjl-table-a").click(function() {
+                var t = $(this);
+                var tr = t.parent().parent().next("tr");
+                if (tr.css("display") == "none") {
+                    tr.fadeIn(300, function() {
+                        t.html("收起备注");
+                    });
+                } else {
+                    tr.fadeOut(300, function() {
+                        t.html("查看备注");
+                    });
+                }
+            });
+
+            $(".account-r-nav ul li").click(function() {
+                var attrNum = $(this).attr("attrNum");
+                var attrObj = $(this).attr("attrObj");
+                $("#module").val(attrObj);
+                $("#countTotal").val(attrNum);
+                $(".account-r-nav ul li").removeClass("account-r-nav-a");
+                $(this).addClass("account-r-nav-a");
+                $("div.tab_box > div").eq($(this).index()).fadeIn(300, function() {}).siblings().hide();
+            });
+        })
+    </script>
+    <script>
+        $(function() {
+            if ($(window).height() > 600) {
+                $(".ui-bottom").addClass("ui-bottom-fixd");
+            }
+            $(window).resize(function() {
+                if ($(window).height() > 600) {
+                    $(".ui-bottom").addClass("ui-bottom-fixd");
+                } else {
+                    $(".ui-bottom").removeClass("ui-bottom-fixd");
+                }
+            });
+        })
+    </script>
+</body>
+
+</html>
