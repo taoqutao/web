@@ -829,5 +829,95 @@ cite {
   letter-spacing: 0;
   color: #fff;
 }
+.btn-reg{
+  position: absolute;;
+  width: 237px;
+  height: 56px;
+  top:549px;
+  left:50%;
+  margin-left: -119px;
+}
+#body .mid2{
 
+  height: 355px; 
+   background: url('../img/hd/mid2.jpg') no-repeat center center;
+   
+  text-align: center;
+
+}
+.mid2 .subtitle{
+  color: #e2c495;
+}
+.mid2 .list{
+  margin: auto;;
+  width: 520px;
+  margin-top: 42px;
+
+}
+.mid2 .list p{
+  letter-spacing: 0;
+  font-size: 16px;
+  line-height: 40px;
+  padding: 0;
+  color: #fff;
+}
+.subtitle{
+  letter-spacing: 0;
+  font-size: 24px;
+padding-top: 56px;
+  text-align: center;
+  
+  color: #d89832;
+
+}
+.subtitle em{
+  display: block;
+  width: 60px;
+  height: 8px;
+  margin: auto;
+  margin-top: 16px;
+  background: #e2c495;
+}
+#hdvip{
+  height: 380px;
+}
+#hdvip img{
+margin-top: 32px;
+}
+#hdvip .more-text{
+  margin-top: 38px;
+  color: #d89832;
+  letter-spacing: 0;
+  font-size: 14px;
+  text-align: center;
+}
+#xzvip {
+  height: 725px;
+  background: #f5f5f5;
+  text-align: center;
+}
+#xzvip .table{
+  margin-top: 27px;
+  margin-bottom: 62px;
+}
+#xzvip  table{
+  width: 100%;
+  table-layout: fixed;
+  letter-spacing: 0;
+  font-size: 16px;
+  border-collapse: collapse;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+#xzvip  table td,#xzvip  table  th{
+  height: 40px;
+  vertical-align: middle;
+  width: 171px;
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+}
+#xzvip  table th{
+  background: #edc17b;
+}
 /*# sourceMappingURL=qinghua.css.map */
